@@ -1,0 +1,12 @@
+wp-config.php
+**/wp-config.php
+**/.sass-cache
+node_modules
+**/node_modules
+**/.idea
+browsersync.php
+**/browsersync.php
+.DS_Store
+._.DS_Store
+**/.DS_Store
+**/._.DS_Store
