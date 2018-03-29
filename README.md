@@ -1,0 +1,20 @@
+# ED6 Test
+
+Tasks to accomplish in order of priority. Finish what you are able in the time allotted.
+
+### Requirements
+- NPM
+- Photoshop
+
+### Recreate the Design
+Using the psd GetEDealer-SEM-1240.psd as reference, recreate the design in html and css. 
+For this task you can exclude the headers and footers. Only implement the content in the white section.
+You can also skip the contact form at the bottom for this section.
+
+### Make it Responsive
+Using the psd GetEDealer-SEM-320.psd as reference, now make the design from the previous task responsive
+as the viewport shrinks.
+
+### Add the Contact Form
+Now add the contact form from the designs. Like the previous sections, this should display correctly on 
+Desktop and Mobile.
