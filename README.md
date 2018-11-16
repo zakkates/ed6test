@@ -6,6 +6,7 @@ Tasks to accomplish in order of priority. Finish what you are able in the time a
 - NPM
 - Photoshop
 
+if you want to use gulp to compile scss to css, run `npm install` from the root of the project. Once the npm packages are installed, you can run `gulp` to compile the scss files.
 ### Recreate the Design
 Using the GetEDealer-SEM-1240.psd or jpg as reference, recreate the design in html and css. 
 For this task you can exclude the headers and footers. Only implement the content in the white section.
