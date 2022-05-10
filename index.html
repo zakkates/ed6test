@@ -1,22 +1,30 @@
-<!doctype html>
+<!DOCTYPE html>
 
 <html lang="en">
-<head>
-    <meta charset="utf-8">
+  <head>
+    <meta charset="utf-8" />
 
     <title>Edealer Test</title>
-    <meta name="description" content="The HTML5 Herald">
-    <meta name="author" content="SitePoint">
-
-    <link rel="stylesheet" href="css/style.css?v=1.0">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/ctas.css">
+    <meta name="description" content="The HTML5 Herald" />
+    <meta name="author" content="SitePoint" />
+    <link rel="icon" href="img/favicon.png" />
+    <!-- <link rel="stylesheet" href="css/style.css?v=1.0" /> -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/ctas.css" />
     <script src="js/modernizr-2.8.3.min.js"></script>
-    <link rel='stylesheet' id='edealer-icon-files-css'  href='http://websites.edealer.ca/assets/icons/ed-icons/style.css' type='text/css' media='all' />
+    <script defer src="js/scripts.js"></script>
+    <script defer src="js/jquery-1.11.3.min.js"></script>
+    <link
+      rel="stylesheet"
+      id="edealer-icon-files-css"
+      href="http://websites.edealer.ca/assets/icons/ed-icons/style.css"
+      type="text/css"
+      media="all"
+    />
 
     <!--[if lt IE 9]>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
     <![endif]-->
 
     <!-- Edealer Test TODO: -->
@@ -26,13 +34,240 @@
     <!-- Add an Icon To Each CTA & Style Appropriately -->
     <!-- ie. markup for icon <i class="icon-big-truck"></i> -->
     <!-- Icons can be found here: http://websites.edealer.ca/assets/icons/ed-icons/demo.html -->
+  </head>
 
-</head>
+  <body>
+    <header>
+      <div class="container">
+        <a href="#" id="header_logo"><img src="img/edealer-logo.svg" /></a>
+        <a class="cta_tel" href="tel:18667769446">(866) 776-9446</a>
+      </div>
+      <img class="temp_layout" src="img/temp_layout/1.jpg" />
+    </header>
 
-<body>
+    <main>
+      <article>
+        <section id="hero">
+          <div class="main_hero_content">
+            <div class="container">
+              <div class="content">
+                <h1>Search and Social <br />Marketing with EDealer</h1>
+                <p>
+                  At EDealer, our expertise in Search Marketing and Social Media
+                  Marketing helps your dealership sell more cars online. When
+                  you choose EDealer to help your dealership with online
+                  advertising, the result is a fully managed solution with
+                  expertise and knowledge of the industry. Online Advertising
+                  will dominate the other channels in your marketing mix through
+                  pure production and return on investment.
+                </p>
 
+                <p>
+                  In addition to Search Marketing and Social Media Marketing,
+                  our team has the expertise to deploy highly targeted campaigns
+                  across the display network, remarketing channels, YouTube.
+                </p>
+              </div>
+              <div class="images">
+                <p>&nbsp;</p>
+                <img id="hero_img_1" src="img/2-1000x1000.png" />
+                <img id="hero_img_2" src="img/2-160x600.png" />
+                <img id="hero_img_3" src="img/2-infiniti-sale.png" />
+              </div>
+            </div>
+          </div>
+          <div class="hero_seperator">
+            <a href="#" class="learn_more">Learn how we can help you</a>
+          </div>
+          <div class="how_we_help">
+            <div class="container">
+              <div class="col">
+                <p>Millions of Dealer Dollars<br /><b>Managed per year</b></p>
+              </div>
+              <div class="col">
+                <p>
+                  <b>Co-Op Concierge</b><br />makes submissions for<br />refund
+                  a cinch
+                </p>
+              </div>
+              <div class="col">
+                <p>
+                  Custom Campaigns,<br />creative and landing pages<br />included
+                </p>
+              </div>
+            </div>
+          </div>
 
-<script src="js/scripts.js"></script>
-<script src="js/jquery-1.11.3.min.js"></script>
-</body>
+          <img class="temp_layout" src="img/temp_layout/2.jpg" />
+        </section>
+        <section
+          id="search_marketing"
+          class="edealer-service bottom_flush_image"
+        >
+          <div class="inner_wrapper container">
+            <div class="content">
+              <h2>Search Marketing</h2>
+              <p>
+                Search Marketing, also known as, PPC or SEM, allows you
+                topurchase ads on the world’s biggest search engine,
+                Google.Search Marketing offers great return-on-investment
+                because youonly pay when someone clicks on your ad.
+              </p>
+            </div>
+            <div class="image">
+              <img src="img/3-Search-Marketing.png" />
+            </div>
+          </div>
+          <img class="temp_layout" src="img/temp_layout/3.jpg" />
+        </section>
+        <section id="inventory_advertising" class="edealer-service">
+          <div class="inner_wrapper container">
+            <div class="content">
+              <h2>Dynamic Inventory Advertising</h2>
+              <p>
+                We advertise your inventory exactly as it’s shown on
+                yourwebsite. Add a new vehicle to your inventory – an ad is
+                created.Sell three cars today? The ads will be removed.
+              </p>
+            </div>
+            <div class="image">
+              <img src="img/4-Dynamic-Inventory.png" id="image_1" />
+              <img src="img/4-2017Acura-MDX-beige.png" id="image_2" />
+              <img src="img/4-2017Acura-RLXSportHybrid-grey.png" id="image_3" />
+            </div>
+          </div>
+
+          <img class="temp_layout" src="img/temp_layout/4.jpg" />
+        </section>
+        <section id="google_partner" class="edealer-service">
+          <div class="inner_wrapper container">
+            <div class="content">
+              <h2>Google Premier Partner</h2>
+              <p>
+                As a Google Premier Partner, EDealer is among the top
+                suppliersin North America offering fully managed SEM. Through
+                ourpartnership, we leverage the knowledge and expertise of the
+                topexperts around the world.
+              </p>
+              <img src="img/5-Google badge.png" />
+            </div>
+            <div class="image">
+              <img src="img/5-Google.png" />
+            </div>
+          </div>
+
+          <img class="temp_layout" src="img/temp_layout/5.jpg" />
+        </section>
+        <section
+          id="social_media_marketing"
+          class="edealer-service bottom_flush_image"
+        >
+          <div class="inner_wrapper container">
+            <div class="content">
+              <h2>Social Media Marketing</h2>
+              <p>
+                Facebook, who also owns Instagram, is no longer about
+                comments,likes and shares for your dealership. While these are
+                stillimportant, these platforms now offer highly robust
+                advertisingplatforms that allow you to drive traffic to your
+                dealershipwebsite with creatively compelling ads.
+              </p>
+              <img src="img/6-blueprint-badges-08.png" />
+              <img src="img/6-Logos.png" />
+            </div>
+            <div class="image">
+              <img src="img/6-Social-Marketing.png" />
+            </div>
+          </div>
+
+          <img class="temp_layout" src="img/temp_layout/6.jpg" />
+        </section>
+      </article>
+      <section id="cta_form">
+        <div class="container">
+          <div class="cta_tagline">
+            <p>
+              We want to reduce your costs, drive qualified traffic to your
+              website,<br />increase leads and above all, help you sell more
+              cars online.
+            </p>
+          </div>
+          <div class="form_wrapper">
+            <div class="form_intro">
+              <h2>
+                How Much More Could You Get From Your<br />AdWords or Social
+                Spend?
+              </h2>
+              <p><b>Complete this form for a Free, No obligation Audit</b></p>
+            </div>
+            <form>
+              <input
+                type="text"
+                id="full_name"
+                name="full_name"
+                placeholder="Full Name"
+                class="col-6"
+              />
+              <input
+                type="tel"
+                id="phone_number"
+                name="phone_number"
+                placeholder="Phone Number"
+                class="col-6 col-last"
+              />
+              <input
+                type="email"
+                id="email_address"
+                name="email_address"
+                placeholder="Email Address"
+              />
+              <input
+                type="text"
+                id="dealership_url"
+                name="dealership_url"
+                placeholder="Dealership URL"
+                class="col-8"
+              />
+              <input
+                type="number"
+                id="budget"
+                name="budget"
+                placeholder="Budget"
+                class="col-4 col-last"
+              />
+              <textarea
+                id="comments"
+                name="comments"
+                placeholder="Comments"
+                rows="4"
+              ></textarea>
+              <input type="submit" value="Submit" />
+            </form>
+          </div>
+        </div>
+        <img class="temp_layout" src="img/temp_layout/7.jpg" />
+      </section>
+      <section id="cta_end">
+        <div class="container">
+          <a href="#" id="footer_logo"><img src="img/edealer-logo.svg" /></a>
+          <a class="btn btn-white" href="#">Enter EDealer.ca</a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <ul>
+          <li>171 East Liberty, Unit 246, Toronto, ON M6K 3P6</li>
+          <li><a class="tel" href="tel:18667769446">866-776-9446</a></li>
+          <li><a class="email" href="tel:18667769446">info@edealer.ca</a></li>
+          <li><a href="#">Français</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+        </ul>
+      </div>
+      <img class="temp_layout" src="img/temp_layout/8.jpg" />
+    </footer>
+
+    <a href="#" id="get_started" class="">Get Started</a>
+  </body>
 </html>

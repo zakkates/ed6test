@@ -10,3 +10,5 @@ browsersync.php
 ._.DS_Store
 **/.DS_Store
 **/._.DS_Store
+**.zip
+assets
